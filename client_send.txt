@@ -1,4 +1,4 @@
-GET /index.html HTTP/1.1
+GET /google-logo.png HTTP/1.1
 Host: localhost:8001
 Connection: keep-alive
 sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
