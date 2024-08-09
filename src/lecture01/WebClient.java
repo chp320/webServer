@@ -6,7 +6,8 @@ import java.net.Socket;
 public class WebClient {
     public static void main(String[] args) {
         try {
-            Socket socket = new Socket("127.0.0.1", 8001);
+//            Socket socket = new Socket("127.0.0.1", 8001);
+            Socket socket = new Socket("localhost", 8080);
 
             File recvFile = new File("client_recv.txt");
             File sendFile = new File("client_send.txt");
@@ -24,7 +25,7 @@ public class WebClient {
             }
 
             // 종료 마크로 0 을 송신 -> tcp, http 규칙이 아닌 server-client 간 규칙임
-            output.write(0);
+//            output.write(0);
 
             // 서버로부터의 리턴을 client_recv.txt 에 출력
             InputStream input = socket.getInputStream();

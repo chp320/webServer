@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d866461-feec-411f-85c1-0a87a0b5d370" name="Changes" comment="내용 추가">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="5d866461-feec-411f-85c1-0a87a0b5d370" name="Changes" comment="txt 파일 및 프로젝트 개요 추가">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client_send.txt" beforeDir="false" afterPath="$PROJECT_DIR$/client_send.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture01/WebClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture01/WebClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723202839923</updated>
-      <workItem from="1723202841270" duration="3595000" />
+      <workItem from="1723202841270" duration="6522000" />
     </task>
     <task id="LOCAL-00001" summary="1st commit">
       <created>1723205605010</created>
@@ -98,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1723206353422</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="txt 파일 및 프로젝트 개요 추가">
+      <created>1723206607197</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723206607197</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +127,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1st commit" />
     <MESSAGE value="내용 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="내용 추가" />
+    <MESSAGE value="txt 파일 및 프로젝트 개요 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="txt 파일 및 프로젝트 개요 추가" />
   </component>
 </project>
