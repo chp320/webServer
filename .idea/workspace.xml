@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d866461-feec-411f-85c1-0a87a0b5d370" name="Changes" comment="client_send.txt 파일 수정 전에 오리지널 파일로 백업">
+    <list default="true" id="5d866461-feec-411f-85c1-0a87a0b5d370" name="Changes" comment="존재하지 않는 파일 request 시 처리 확인 위해 client_send.txt 파일 수정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client_send.txt" beforeDir="false" afterPath="$PROJECT_DIR$/client_send.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +42,7 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lecture03.Main" />
       <module name="webServer" />
@@ -96,9 +97,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WebClient" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.SmallCat01" />
-        <item itemvalue="Application.WebClient" />
         <item itemvalue="Application.WebServer" />
       </list>
     </recent_temporary>
@@ -111,7 +112,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723202839923</updated>
-      <workItem from="1723202841270" duration="19324000" />
+      <workItem from="1723202841270" duration="21376000" />
     </task>
     <task id="LOCAL-00001" summary="1st commit">
       <created>1723205605010</created>
@@ -183,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1723251379024</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="존재하지 않는 파일 request 시 처리 확인 위해 client_send.txt 파일 수정">
+      <created>1723251625590</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1723251625590</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +219,7 @@
     <MESSAGE value="html 파일 요청 시 응답 주는 간단한 웹서버 기능 구현" />
     <MESSAGE value="client에서 TCP 요청 시 멀티스레드로 처리해서 병렬로 접속 가능하도록 ServerThread 추가 + 파일 확장자에 따른 Content-Type 반환 기능 구현" />
     <MESSAGE value="client_send.txt 파일 수정 전에 오리지널 파일로 백업" />
-    <option name="LAST_COMMIT_MESSAGE" value="client_send.txt 파일 수정 전에 오리지널 파일로 백업" />
+    <MESSAGE value="존재하지 않는 파일 request 시 처리 확인 위해 client_send.txt 파일 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="존재하지 않는 파일 request 시 처리 확인 위해 client_send.txt 파일 수정" />
   </component>
 </project>

@@ -77,4 +77,5 @@ Accept-Ranges: bytes
    - client 요청 들어오면 해당 소켓을 쓰레드로 전달하고 accept() 대기
 2. 404 Not Found 반환
    - 존재하지 않는 path 요청 시에 무조건 "200 OK" 반환하지 않고 "404" 리턴하도록 구현 
-3. 
+3. default 페이지 출력
+   - URL 에 디렉토리까지만 지정된 경우에 default 로 index.html 을 보게끔 redirect
