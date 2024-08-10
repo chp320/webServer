@@ -69,3 +69,12 @@ ETag: "66573c08-267"
 Accept-Ranges: bytes
 ```
 => 상기 내용 중, ``Date``, ``Server``, ``Connection``, ``Content-Type`` 을 response header 에 반환
+
+
+## 웹서버 SmallCat 수정 이력
+1. 멀티쓰레드 구현
+   - http request 1건 처리 후 소켓 종료하는 경우 처리 위해 멀티쓰레드 구현
+   - client 요청 들어오면 해당 소켓을 쓰레드로 전달하고 accept() 대기
+2. 404 Not Found 반환
+   - 존재하지 않는 path 요청 시에 무조건 "200 OK" 반환하지 않고 "404" 리턴하도록 구현 
+3. 

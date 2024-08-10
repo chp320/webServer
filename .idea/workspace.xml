@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d866461-feec-411f-85c1-0a87a0b5d370" name="Changes" comment="html 파일 요청 시 응답 주는 간단한 웹서버 기능 구현">
-      <change afterPath="$PROJECT_DIR$/src/lecture03/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture03/ServerThread.java" afterDir="false" />
+    <list default="true" id="5d866461-feec-411f-85c1-0a87a0b5d370" name="Changes" comment="client에서 TCP 요청 시 멀티스레드로 처리해서 병렬로 접속 가능하도록 ServerThread 추가 + 파일 확장자에 따른 Content-Type 반환 기능 구현">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +111,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723202839923</updated>
-      <workItem from="1723202841270" duration="18386000" />
+      <workItem from="1723202841270" duration="19014000" />
     </task>
     <task id="LOCAL-00001" summary="1st commit">
       <created>1723205605010</created>
@@ -170,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1723244770129</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="client에서 TCP 요청 시 멀티스레드로 처리해서 병렬로 접속 가능하도록 ServerThread 추가 + 파일 확장자에 따른 Content-Type 반환 기능 구현">
+      <created>1723250616372</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1723250616372</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +202,7 @@
     <MESSAGE value="nginx 관련 내용 추가" />
     <MESSAGE value="서버의 http response 헤더에 대한 내용 정리" />
     <MESSAGE value="html 파일 요청 시 응답 주는 간단한 웹서버 기능 구현" />
-    <option name="LAST_COMMIT_MESSAGE" value="html 파일 요청 시 응답 주는 간단한 웹서버 기능 구현" />
+    <MESSAGE value="client에서 TCP 요청 시 멀티스레드로 처리해서 병렬로 접속 가능하도록 ServerThread 추가 + 파일 확장자에 따른 Content-Type 반환 기능 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="client에서 TCP 요청 시 멀티스레드로 처리해서 병렬로 접속 가능하도록 ServerThread 추가 + 파일 확장자에 따른 Content-Type 반환 기능 구현" />
   </component>
 </project>
