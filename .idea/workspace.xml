@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d866461-feec-411f-85c1-0a87a0b5d370" name="Changes" comment="서버의 http response 헤더에 대한 내용 정리">
-      <change afterPath="$PROJECT_DIR$/src/lecture03/SmallCat01.java" afterDir="false" />
+    <list default="true" id="5d866461-feec-411f-85c1-0a87a0b5d370" name="Changes" comment="html 파일 요청 시 응답 주는 간단한 웹서버 기능 구현">
+      <change afterPath="$PROJECT_DIR$/src/lecture03/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lecture03/ServerThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +42,20 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SmallCat01">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture03.Main" />
+      <module name="webServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lecture03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SmallCat01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lecture03.SmallCat01" />
       <module name="webServer" />
@@ -83,6 +97,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.SmallCat01" />
         <item itemvalue="Application.WebClient" />
         <item itemvalue="Application.WebServer" />
@@ -97,7 +112,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723202839923</updated>
-      <workItem from="1723202841270" duration="14409000" />
+      <workItem from="1723202841270" duration="18386000" />
     </task>
     <task id="LOCAL-00001" summary="1st commit">
       <created>1723205605010</created>
@@ -148,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1723217986646</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="html 파일 요청 시 응답 주는 간단한 웹서버 기능 구현">
+      <created>1723244770129</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1723244770129</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +195,7 @@
     <MESSAGE value="불필요 클래스 삭제" />
     <MESSAGE value="nginx 관련 내용 추가" />
     <MESSAGE value="서버의 http response 헤더에 대한 내용 정리" />
-    <option name="LAST_COMMIT_MESSAGE" value="서버의 http response 헤더에 대한 내용 정리" />
+    <MESSAGE value="html 파일 요청 시 응답 주는 간단한 웹서버 기능 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="html 파일 요청 시 응답 주는 간단한 웹서버 기능 구현" />
   </component>
 </project>
