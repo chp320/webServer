@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d866461-feec-411f-85c1-0a87a0b5d370" name="Changes" comment="존재하지 않는 파일 request 시 처리 확인 위해 client_send.txt 파일 수정">
+    <list default="true" id="5d866461-feec-411f-85c1-0a87a0b5d370" name="Changes" comment="기능 설명 추가">
+      <change afterPath="$PROJECT_DIR$/src/lecture03/MyURLDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lecture03/SendResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lecture03/Util.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client_send.txt" beforeDir="false" afterPath="$PROJECT_DIR$/client_send.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture03/ServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture03/ServerThread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +114,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723202839923</updated>
-      <workItem from="1723202841270" duration="21376000" />
+      <workItem from="1723202841270" duration="27931000" />
     </task>
     <task id="LOCAL-00001" summary="1st commit">
       <created>1723205605010</created>
@@ -191,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1723251625590</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="기능 설명 추가">
+      <created>1723254003121</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1723254003121</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +229,7 @@
     <MESSAGE value="client에서 TCP 요청 시 멀티스레드로 처리해서 병렬로 접속 가능하도록 ServerThread 추가 + 파일 확장자에 따른 Content-Type 반환 기능 구현" />
     <MESSAGE value="client_send.txt 파일 수정 전에 오리지널 파일로 백업" />
     <MESSAGE value="존재하지 않는 파일 request 시 처리 확인 위해 client_send.txt 파일 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="존재하지 않는 파일 request 시 처리 확인 위해 client_send.txt 파일 수정" />
+    <MESSAGE value="기능 설명 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="기능 설명 추가" />
   </component>
 </project>
