@@ -1,0 +1,37 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>POST 메소드 테스트</title>
+</head>
+<body>
+<form action="http://localhost:8001/post_method_test" method="post">
+텍스트 박스: <input type="text" name="text_name"/><br>
+패스워드: <input type="password" name="password_name"/><br>
+텍스트 영역<br>
+<textarea name="textarea_name" rows="4" cols="40"></textarea>
+<table border="1">
+    <tr>
+        <td>
+            라디오 버튼: <br>
+            <input type="radio" name="radio_name" value="radio1">1
+            <input type="radio" name="radio_name" value="radio2">2
+            <input type="radio" name="radio_name" value="radio3">3
+            <input type="radio" name="radio_name" value="radio4">4
+        </td>
+    </tr>
+    <tr>
+        <td>
+            체크박스: <br>
+            <input type="checkbox" name="check_name" value="check1">1
+            <input type="checkbox" name="check_name" value="check2">2
+            <input type="checkbox" name="check_name" value="check3">3
+            <input type="checkbox" name="check_name" value="check4">4
+        </td>
+    </tr>
+</table>
+<input type="hidden" name="hidden_name" value="hidden_value"/>
+파일 업로드: <input type="file" name="file_name"/><br>
+<input type="submit" name="submit_name" value="보내기"/>
+</form>
+</body>
+</html>
