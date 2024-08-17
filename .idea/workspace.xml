@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d866461-feec-411f-85c1-0a87a0b5d370" name="Changes" comment="파일 업로드하기 위한 form 태그 내 enctype 속성 추가">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/servlet_api.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testBoard/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testBoard/PostArticle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testBoard/ReadArticle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/part02/WebServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testBoard/WebServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/part02/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/testBoard/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/webServer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testBoard/ReadArticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testBoard/ReadArticle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +47,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "Errors"
@@ -125,7 +117,7 @@
     <configuration name="Tomcat 8.5.61" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.61" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <file path="$PROJECT_DIR$/src/part02">
+        <file path="%IDEA_RUN:TOMCAT_HOME%/webapps/testBoard">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
@@ -231,7 +223,7 @@
       <option name="presentableId" value="Default" />
       <updated>1723202839923</updated>
       <workItem from="1723202841270" duration="28389000" />
-      <workItem from="1723644081052" duration="11710000" />
+      <workItem from="1723644081052" duration="16360000" />
     </task>
     <task id="LOCAL-00001" summary="1st commit">
       <created>1723205605010</created>
@@ -345,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1723676687141</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="파일 업로드하기 위한 form 태그 내 enctype 속성 추가">
+      <created>1723690854898</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1723690854898</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
