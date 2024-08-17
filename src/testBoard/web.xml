@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+(2024.08.15 최초 작성)
+  1. 서블릿과 URL을 맵핑시키기 위한 역할 수행을 위한 web.xml
+  2. tomcat에 기본으로 제공되는 web.xml을 바탕으로 수정한 파일
+(2024.08.18 내용 추가)
+  1. web.xml 파일은 tomcat 에게 web application 의 자원(리소스)을 명시 해주는 파일이다.
+  2. servlet-class 는 파일명만 명시할 것이 아니고 구체적인 경로를 명시해야함
+  참고) https://ppowerppush.tistory.com/73
+-->
+<!--
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+  version="3.1"
+  metadata-complete="true">
+-->
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee
+                      https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0"
+         metadata-complete="true">
+
+    <!-- ======================== Introduction ============================== -->
+    <!-- This document defines default values for *all* web applications      -->
+    <!-- loaded into this instance of Tomcat.  As each application is         -->
+    <!-- deployed, this file is processed, followed by the                    -->
+    <!-- "/WEB-INF/web.xml" deployment descriptor from your own               -->
+    <!-- applications.                                                        -->
+    <!--                                                                      -->
+    <!-- WARNING:  Do not configure application-specific resources here!      -->
+    <!-- They should go in the "/WEB-INF/web.xml" file in your application.   -->
+
+
+    <!-- ================== Built In Servlet Definitions ==================== -->
+    <!-- servlet-name 태그가 1개의 서블릿을 특정하는 key값으로 인식된다.      -->
+    <!-- 예를 들어, ReadArticle 이라고 하는 이름의 서블릿에 대응하는          -->
+    <!-- 클래스명은 servlelt-class 태그에 정의하고 url-pattern 요소로 맵핑    -->
+
+    <servlet>
+        <servlet-name>ReadArticle</servlet-name>
+        <servlet-class>testBoard.ReadArticle</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PostArticle</servlet-name>
+        <servlet-class>PostArticle</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReadArticle</servlet-name>
+        <url-pattern>/ReadArticle</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PostArticle</servlet-name>
+        <url-pattern>/PostArticle</url-pattern>
+    </servlet-mapping>
+</web-app>
