@@ -42,14 +42,15 @@ public class ReadArticle extends HttpServlet implements Serializable {
         out.println("</form>");
         out.println("<hr>");
 
-        for(Article article : Article.articleList) {
-            out.println("<p>[" + escapeHtml(article.title) + "]&nbsp;&nbsp;"
-                        + escapeHtml(article.handle) + " 님&nbsp;&nbsp;"
-                        + escapeHtml(article.date.toString()) + "</p>");
-            out.println("<p>");
-            out.println(escapeHtml(article.message).replace("\r\n", "<br>"));
-            out.println("</p>");
-        }
+//        for(Article article : Article.articleList) {
+//            out.println("<p>[" + escapeHtml(article.title) + "]&nbsp;&nbsp;"
+//                        + escapeHtml(article.handle) + " 님&nbsp;&nbsp;"
+//                        + escapeHtml(article.date.toString()) + "</p>");
+//            out.println("<p>");
+//            out.println(escapeHtml(article.message).replace("\r\n", "<br>"));
+//            out.println("</p>");
+//        }
+
         out.println("</body>");
         out.println("</html>");
     }
