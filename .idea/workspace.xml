@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d866461-feec-411f-85c1-0a87a0b5d370" name="Changes" comment="반복 구문 수정">
-      <change afterPath="$PROJECT_DIR$/src/testBoard/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5d866461-feec-411f-85c1-0a87a0b5d370" name="Changes" comment="tomcat 내 등록한 web.xml 파일 내용 추가">
+      <change beforePath="$PROJECT_DIR$/src/testBoard/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/testBoard/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,7 +224,7 @@
       <option name="presentableId" value="Default" />
       <updated>1723202839923</updated>
       <workItem from="1723202841270" duration="28389000" />
-      <workItem from="1723644081052" duration="18297000" />
+      <workItem from="1723644081052" duration="18533000" />
     </task>
     <task id="LOCAL-00001" summary="1st commit">
       <created>1723205605010</created>
@@ -360,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1723855201152</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="tomcat 내 등록한 web.xml 파일 내용 추가">
+      <created>1723935569324</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1723935569324</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,6 +400,7 @@
     <MESSAGE value="POST 메소드 입력 폼 예시와 client가 요청한 내용을 server_recv.txt 파일로 기록하는 WebServer 기능 구현" />
     <MESSAGE value="파일 업로드하기 위한 form 태그 내 enctype 속성 추가" />
     <MESSAGE value="반복 구문 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="반복 구문 수정" />
+    <MESSAGE value="tomcat 내 등록한 web.xml 파일 내용 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="tomcat 내 등록한 web.xml 파일 내용 추가" />
   </component>
 </project>

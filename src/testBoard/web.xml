@@ -45,7 +45,7 @@
     </servlet>
     <servlet>
         <servlet-name>PostArticle</servlet-name>
-        <servlet-class>PostArticle</servlet-class>
+        <servlet-class>testBoard.PostArticle</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ReadArticle</servlet-name>
